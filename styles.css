@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display");
+body {
+  font-family: "Red Hat Display";
+}
+
+main {
+  margin: auto;
+  width: 70%;
+}
+
+.banner {
+  background-color: #21325A;
+}
+
+.banner__text {
+  padding: 2em;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+.card {
+  margin: 1em auto;
+}
+
+.card__title {
+  padding: 1em;
+  background-color: whitesmoke;
+  color: #323843;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.card__form-titles {
+  margin: 1em auto;
+  padding-left: 1em;
+}
+
+.card__input {
+  margin-left: 2em;
+  width: 90%;
+  font-size: 1em;
+  padding: .3em;
+}
+
+.card__button {
+  margin-top: 2em;
+  margin-left: 1em;
+  border: none;
+  background-color: whitesmoke;
+  color: #323843;
+  font-weight: bold;
+  padding: .5em;
+  border-radius: 5px;
+  font-family: "Red Hat Display";
+}
+
+.card__button:hover {
+  background-color: darkgray;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display');
+
+
+body{
+  font-family: "Red Hat Display";
+}
+
+main{
+  margin: auto;
+  width: 70%;
+}
+
+.banner{
+  background-color: #21325A;
+
+  &__text{
+    padding: 2em;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    }
+  
+}
+
+.card{
+
+margin: 1em auto;
+
+
+  &__title{
+    padding: 1em;
+    background-color: whitesmoke;
+    color: #323843;
+    font-size: 1em;
+    font-weight: bold;
+
+  }
+
+  &__form-titles{
+    margin: 1em auto;
+    padding-left: 1em;
+  }
+
+  &__input{
+    margin-left: 2em;
+    width: 90%;
+    font-size: 1em;
+    padding: .3em;
+  }
+
+  &__button{
+    margin-top: 2em;
+    margin-left: 1em;
+    border: none;
+    background-color: whitesmoke;
+    color: #323843;
+    font-weight: bold;
+    padding: .5em;
+    border-radius: 5px;
+    font-family: "Red Hat Display";
+
+    &:hover{
+      background-color: darkgray;
+    }
+  }
+
+}
