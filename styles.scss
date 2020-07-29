@@ -65,3 +65,38 @@ margin: 1em auto;
   }
 
 }
+
+.article-blob{
+  margin: 1em 0;
+  padding: .5em;
+  border: solid 2px lightgray;
+
+  &__text{
+    margin: .2em auto;
+  }
+
+  &__title{
+    font-weight: bolder;
+    font-size: 1em;
+  }
+
+  &__author{
+    font-size: .9em;
+  }
+
+  &__section{
+    font-size: 1em;
+  }
+
+  &__date{
+    font-size: .75em;
+    font-weight: bold;
+    
+  }
+
+  &__link{
+    font-size: .75em;
+    text-decoration: none;
+  }
+}
+

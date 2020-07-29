@@ -58,4 +58,37 @@ main {
 .card__button:hover {
   background-color: darkgray;
 }
+
+.article-blob {
+  margin: 1em 0;
+  padding: .5em;
+  border: solid 2px lightgray;
+}
+
+.article-blob__text {
+  margin: .2em auto;
+}
+
+.article-blob__title {
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+.article-blob__author {
+  font-size: .9em;
+}
+
+.article-blob__section {
+  font-size: 1em;
+}
+
+.article-blob__date {
+  font-size: .75em;
+  font-weight: bold;
+}
+
+.article-blob__link {
+  font-size: .75em;
+  text-decoration: none;
+}
 /*# sourceMappingURL=styles.css.map */

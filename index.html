@@ -17,20 +17,30 @@
     <section class="card">
       <h2 class="card__title">Search Parameters</h2>
       <div class="card__form-titles">Search Term:</div>
-      <input type="text" class="card__input">
+      <input type="text" id="search-terms" class="card__input">
       <div class="card__form-titles">Number of Records to Retrieve:</div>
-      <input type="text" class="card__input">
+      <input type="text" id="records"class="card__input">
       <div class="card__form-titles">Start Year (Optional):</div>
-      <input type="text" class="card__input">
+      <input type="text" id="start-year" class="card__input">
       <div class="card__form-titles">End Year (Optional):</div>
-      <input type="text" class="card__input"></br>
+      <input type="text" id="end-year" class="card__input"></br>
 
-      <button class="card__button">Search</button>
+      <button class="card__button" id="search">Search</button>
       <button class="card__button">Clear Results</button>
     </section>
     <section class="card">
       <h2 class="card__title">Top Articles</h2>
+
+      <div class="article-blob">
+        <div class="article-blob__title article-blob__text" id="article-title">1. Sample Name</div>
+        <div class="article-blob__author article-blob__text" id="authors">Author-1, Author-2, Author-3</div>
+        <div class="article-blob__section article-blob__text" id="section-type">Section: Sample</div>
+        <div class="article-blob__date article-blob__text" id="date">01-01-2020::</div>
+        <a href="https://www.nytimes.com" class="article-blob__link article-blob__text" id="link">https://www.nytimes.com</a>
+      </div>
     </section>
 </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
